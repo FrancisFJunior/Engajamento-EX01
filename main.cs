@@ -19,7 +19,7 @@ class EX01Class {
     n2 = int.Parse(Console.ReadLine());
 
     int Total = CalcSimples(n1,n2,oper);
-    Console.Write("Resultado: {0}"Total);
+    Console.Write("Resultado: {0}",Total);
   }
 
   public static int CalcSimples(int n1,int n2, char oper){
